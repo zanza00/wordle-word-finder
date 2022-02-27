@@ -1,2 +1,3 @@
 # wordle-word-finder
-Created with CodeSandbox
+
+A basic wordle word finder
