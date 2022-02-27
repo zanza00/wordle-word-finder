@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(19, 19, 19);
+  /* height: 100%; */
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  color: lightgray;
+  background: rgb(19, 19, 19);
+  font-size: 1.1rem;
+}
+
+.letterbox {
+  height: 24px;
+  width: 24px;
+  text-transform: uppercase;
+  padding: 0.25rem;
+  background-color: #ccc;
+  border: 1px solid rgb(70, 70, 70);
+}
+
+.lettersinput {
+  border: 1px solid rgb(70, 70, 70);
+  height: 24px;
+  text-transform: uppercase;
+  padding: 0.1rem;
+  margin: 0 0.75rem;
+  background-color: #ccc;
+}
+
+.get-words {
+  border-radius: 1rem;
+}
+
+.solutions {
+  margin: 1rem 0.25rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 99%;
+}
+
+.result {
+  border: 1px gray solid;
+  border-radius: 0.5 rem;
+  padding: 0.25rem;
+  margin: 0.12rem;
+  background: rgb(135, 135, 135);
+  background: linear-gradient(
+    326deg,
+    rgba(135, 135, 135, 1) 0%,
+    rgba(78, 78, 78, 1) 50%,
+    rgba(82, 82, 82, 1) 100%
+  );
+}
+
+/* CSS */
+.get-words {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  margin: 1rem;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.get-words:active,
+.get-words:hover {
+  outline: 0;
+}
