@@ -90,7 +90,7 @@ export default function App() {
             And {solutions.length - viewLimit} more
           </div>
         )}
-        {solState === "with-input" && (
+        {solState === "with-input" && solutions.length === 0 && (
           <div className="solutions-more">
             No solutions :(
             <br />
