@@ -18,8 +18,10 @@ export default function App() {
   const [solutions, setSolutions] = useState(emptyStringArr);
   return (
     <div className="App">
-      <h1>Basic Wordle word finder</h1>
-      <h2>very manual and very beta</h2>
+      <div>
+        <h1>Basic Wordle word finder</h1>
+        <h2>very manual and very beta</h2>
+      </div>
       <div className="letter-source">
         <div>
           <label>
@@ -101,6 +103,10 @@ export default function App() {
           change letters please
         </div>
       )}
+      <footer>
+        Made by Zanza00 -{" "}
+        <a href="https://github.com/zanza00/wordle-word-finder">github</a>
+      </footer>
     </div>
   );
 }

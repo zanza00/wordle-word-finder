@@ -73,6 +73,13 @@ body {
   );
 }
 
+.App footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 30%;
+  right: 30%;
+}
+
 /* CSS */
 .get-words {
   align-items: center;
