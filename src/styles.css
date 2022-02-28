@@ -14,6 +14,17 @@ body {
   color: lightgray;
   background: rgb(19, 19, 19);
   font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter-source {
+  justify-content: space-between;
+  min-height: 15rem;
+  flex-direction: column;
+  display: flex;
 }
 
 .letterbox {
@@ -45,7 +56,7 @@ body {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 99%;
+  max-width: 30rem;
 }
 
 .result {
