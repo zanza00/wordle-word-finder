@@ -25,7 +25,7 @@ export function findWords(
     if (goodC) {
       const greenC = greenLetters.every((c, i) => {
         if (c === "") return true;
-        if (word.charAt(i) === c) return true;
+        if (word.charAt(i) === c.toLocaleLowerCase()) return true;
         return false;
       });
       return greenC && true;
